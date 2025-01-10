@@ -15,4 +15,4 @@
       GREET: "TASK"
   - name: print the variable
     ansible.builtin.debug:
-      msg: "Hello from {{ GREET }}"
+      msg:"Hello from {{ GREET }}"
