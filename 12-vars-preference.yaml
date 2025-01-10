@@ -4,9 +4,9 @@
   vars: # play level variables
     GREET: "PLAY"
   Vars_files:
-  - course.yaml  
+    - course.yaml  
   vars_prompt:
-  - name: GREET
+  -name: GREET
     prompt: Enter the value
     private: false
   tasks: 
