@@ -4,9 +4,9 @@
   tasks:
   - name: install packages
     ansible.builtin.dabug:
-      name: {{ item }}
+      name: "{{ item }}"
       state: installed
-    loop: 
+    loop:
     - gcc
     - mysql
     - git
