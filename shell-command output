@@ -1,0 +1,46 @@
+ "msg": {
+        "changed": true,
+        "cmd": [
+            "ls",
+            "-ltr"
+        ],
+        "delta": "0:00:00.006298",
+        "end": "2025-01-12 12:09:07.288538",
+        "failed": false,
+        "msg": "",
+        "rc": 0,
+        "start": "2025-01-12 12:09:07.282240",
+        "stderr": "",
+        "stderr_lines": [],
+        "stdout": "total 136\n-rw-r--r-- 1 ec2-user ec2-user   259 Jan 12 10:18 07-vars-files.yaml\n-rw-r--r-- 1 ec2-user ec2-user   643 Jan 12 10:18 06-tasks-vars.yaml\n-rw-r--r-- 1 ec2-user ec2-user   322 Jan 12 10:18 05-vars.yaml\n-rw-r--r-- 1 ec2-user ec2-user   405 Jan 12 10:18 04-multi-play.yaml\n-rw-r--r-- 1 ec2-user ec2-user   281 Jan 12 10:18 03-nginx.yaml\n-rw-r--r-- 1 ec2-user ec2-user   125 Jan 12 10:18 02-hello-world.yaml\n-rw-r--r-- 1 ec2-user ec2-user   111 Jan 12 10:18 01-playbook.yaml\n-rw-r--r-- 1 ec2-user ec2-user    83 Jan 12 10:18 course.yaml\n-rw-r--r-- 1 ec2-user ec2-user   346 Jan 12 10:18 19-loops.yaml\n-rw-r--r-- 1 ec2-user ec2-user   218 Jan 12 10:18 18-loops.yaml\n-rw-r--r-- 1 ec2-user ec2-user   190 Jan 12 10:18 17-loops.yaml\n-rw-r--r-- 1 ec2-user ec2-user   338 Jan 12 10:18 16-conditions.yaml\n-rw-r--r-- 1 ec2-user ec2-user   131 Jan 12 10:18 15-facts.yaml\n-rw-r--r-- 1 ec2-user ec2-user   454 Jan 12 10:18 14-conditions.yaml\n-rw-r--r-- 1 ec2-user ec2-user   596 Jan 12 10:18 13-data-types.yaml\n-rw-r--r-- 1 ec2-user ec2-user   443 Jan 12 10:18 12-vars-preference.yaml\n-rw-r--r-- 1 ec2-user ec2-user   216 Jan 12 10:18 11-vars-args.yaml\n-rw-r--r-- 1 ec2-user ec2-user   206 Jan 12 10:18 10-vars-inventory.yaml\n-rw-r--r-- 1 ec2-user ec2-user   230 Jan 12 10:18 09-vars-inventory.yaml\n-rw-r--r-- 1 ec2-user ec2-user   506 Jan 12 10:18 08-vars-prompt.yaml\n-rw-r--r-- 1 ec2-user ec2-user 41804 Jan 12 10:18 facts.json\n-rw-r--r-- 1 ec2-user ec2-user   556 Jan 12 10:39 inventory.ini\n-rw-r--r-- 1 ec2-user ec2-user  1461 Jan 12 11:39 20-filters.yaml\n-rw-r--r-- 1 ec2-user ec2-user   467 Jan 12 12:08 21-shell-command.yaml",
+        "stdout_lines": [
+            "total 136",
+            "-rw-r--r-- 1 ec2-user ec2-user   259 Jan 12 10:18 07-vars-files.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   643 Jan 12 10:18 06-tasks-vars.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   322 Jan 12 10:18 05-vars.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   405 Jan 12 10:18 04-multi-play.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   281 Jan 12 10:18 03-nginx.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   125 Jan 12 10:18 02-hello-world.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   111 Jan 12 10:18 01-playbook.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user    83 Jan 12 10:18 course.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   346 Jan 12 10:18 19-loops.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   218 Jan 12 10:18 18-loops.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   190 Jan 12 10:18 17-loops.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   338 Jan 12 10:18 16-conditions.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   131 Jan 12 10:18 15-facts.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   454 Jan 12 10:18 14-conditions.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   596 Jan 12 10:18 13-data-types.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   443 Jan 12 10:18 12-vars-preference.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   216 Jan 12 10:18 11-vars-args.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   206 Jan 12 10:18 10-vars-inventory.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   230 Jan 12 10:18 09-vars-inventory.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   506 Jan 12 10:18 08-vars-prompt.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user 41804 Jan 12 10:18 facts.json",
+            "-rw-r--r-- 1 ec2-user ec2-user   556 Jan 12 10:39 inventory.ini",
+            "-rw-r--r-- 1 ec2-user ec2-user  1461 Jan 12 11:39 20-filters.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   467 Jan 12 12:08 21-shell-command.yaml"
+        ]
+    }
+}
+
+

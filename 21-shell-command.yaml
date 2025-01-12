@@ -8,9 +8,12 @@
 
   - name: execute ls command in command module
     #ansible.builtin.command: ls -ltr > /tmp/output.txt
-    ansible.builtin.command: ls -ltr 
+    #ansible.builtin.command: ls -ltr 
+    ansible.builtin.command: lss -ltrssfff
     register: command_result
 
   - name: print the output
     ansible.builtin.debug:
       msg: "{{ command_result }}"
+
+       
