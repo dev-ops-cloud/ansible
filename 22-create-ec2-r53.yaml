@@ -11,14 +11,6 @@
     - backend
     - frontend
   tasks: 
-  - name: Install AWS Python libraries
-    ansible.builtin.pip:
-      name: " {{ item }} "
-      executable: pip3.9
-    loop:
-    - boto3
-    - botocore
-    
   - name: create ec2 instances
     amazon.aws.ec2_instance:
       name: "{{ item }}"
@@ -29,15 +21,5 @@
     loop: "{{ instances }}"
     register: ec2_info
 
-  - name: print ec2_info
-    ansible.builtin.debug:
-      msg: "{{ ec2_info }}"
-
-  - name: print private IP address
-    ansible.builtin.debug:
-    msg: "{{ item.item }}: {{ item.instances[0].private_ip_address}}"
-  loop: "{{ ec2_info.results }}"
-
-
-
+  
 
