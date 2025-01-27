@@ -18,6 +18,7 @@
     loop:
     - boto3
     - botocore
+    
   - name: create ec2 instances
     amazon.aws.ec2_instance:
       name: "{{ item }}"
@@ -31,7 +32,7 @@
   - name: print ec2_info
     ansible.builtin.debug:
       msg: "{{ ec2_info }}"
-      
+
   - name: print private IP address
     ansible.builtin.debug:
     msg: "{{ item.item }}: {{ item.instances[0].private_ip_address}}"
