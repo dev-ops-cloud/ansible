@@ -37,8 +37,7 @@
     msg: "{{ item.item }}: {{ item.instances[0].private_ip_address}}"
   loop: "{{ ec2_info.results }}"
 
-  
-  "msg": {
+  {
   "changed": false,
     "msg": "All items completed",
     "results": [
