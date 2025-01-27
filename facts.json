@@ -993,5 +993,4 @@ ok: [172.31.84.53] => {
         "virtualization_tech_host": [],
         "virtualization_type": "kvm"
     }
-
 }
